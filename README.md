@@ -1,15 +1,15 @@
 1. Clone this repository.
 
-2. First install necessary packages:
+2. Install necessary packages:
 ```
 pip install -r requirements.txt
 ```
-3. Secondly (for the visual version (applicatie_gui.py)), install tkinter:
+3. Install tkinter (for the visual version (applicatie_gui.py)):
 ```
 sudo apt-get install python3-tk
 ```
 
-4. Thirdly run the "ophalen_energieleveranciers.py" to get a .txt file which contains all the energieleveranciers:
+4. Run the "ophalen_energieleveranciers.py" to get a .txt file which contains all the energieleveranciers (to run this daily we would recommend to use a cronjob):
 ```
 python3 ophalen_energieleveranciers.py
 ```
