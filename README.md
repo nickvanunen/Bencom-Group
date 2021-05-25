@@ -9,9 +9,9 @@ pip install -r requirements.txt
 sudo apt-get install python3-tk
 ```
 
-4. Run the "ophalen_energieleveranciers.py" to get a .txt file which contains all the energieleveranciers (to run this daily we would recommend to use a cronjob):
+4. Run the "ophalen_leveranciers.py" to get a .txt file which contains all the energieleveranciers (to run this daily we would recommend to use a cronjob):
 ```
-python3 ophalen_energieleveranciers.py
+python3 ophalen_leveranciers.py
 ```
 
 5. Run the terminal OR Graphical User Interface version:
